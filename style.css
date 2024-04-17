@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -63,6 +64,11 @@ body {
 
 .sign-up-card {
     display: flex
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
 
