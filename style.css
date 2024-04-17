@@ -38,9 +38,34 @@ body {
 .info {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .cards {
     display: flex;
 }
+
+.quote {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ cite {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-up-prompt {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-card {
+    display: flex
+}
+
+
+
+
 
