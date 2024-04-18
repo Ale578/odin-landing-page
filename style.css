@@ -8,7 +8,9 @@ body {
     margin: 0;
 }
 
-
+p {
+        font-size: 18px;
+}
 .header-logo {
     font-size: 24px;
 }
@@ -28,15 +30,12 @@ body {
     margin: 0;  
     display: flex;
     gap: 20px;
-    font-size: 18px;
     color: #E5E7EB;
-
 }
 
 .welcome {
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
 }
 
 .welcome-card {
@@ -68,23 +67,10 @@ h1 {
     color: white;
 }
 
-.sign-up {
-    flex-grow: 0;
-    width: 90px;
-    height: 30px;
-    color: white;
-    background-color: #3882F6;
-    border: none;
-    border-radius: 10px;
-    padding: 5px;
-
-}
-
 .welcome img {
     width: 500px;
     height: 400px;
-
-    object-fit:cover;
+    object-fit: cover;
 
 }
 
@@ -160,16 +146,52 @@ h2 {
 }
 
 .sign-up-card {
-    display: flex
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 100px;
+    gap: 200px;
+    margin: 50px 200px;
+    border-radius: 10px;
+}
+
+.sign-up-card h3 {
+    margin: 0;
+}
+.sign-up-card p {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    flex-grow: 0;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.welcome .sign-up {
+    border: none;
+}
+
+.sign-up-card .sign-up {
+    border-color: white;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    color: #E5E7EB;
+    padding: 30px;
 }
 
 .header,
-.footer {
+.footer,
+.welcome {
     background-color: #1F2937;
 }
 
