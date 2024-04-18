@@ -81,16 +81,11 @@ h1 {
 }
 
 .welcome img {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
 
     object-fit:cover;
 
-}
-.card img {
-    width: 300px;
-    height: 300px;
-    object-fit:cover;
 }
 
 .info {
@@ -99,14 +94,42 @@ h1 {
     align-items: center;
 }
 
+h2 {
+    margin: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .cards {
     display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit:cover;
+    margin: 0;
+    padding: 0;
+}
+
+.card p {
+    width: 300px;
 }
 
 .quote {
     display : flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
  cite {
