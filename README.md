@@ -1,5 +1,5 @@
 # odin-landing-page
-
+This is one of the first websites I have made. I based it on the design provided by the odin project and I made it to practice my understanding of CSS more specifically flexbox.
 
 a painting of a mountain range with a pine tree in the foreground
 Title: Summit of the Sierras, Nevada Artist: Moran, Thomas, 1837-1926 Publisher: L. Prang & Co. Name on Item: T Moran Date: (c) 1876 https://www.digitalcommonwealth.org/search/commonwealth:5m60qs26j
